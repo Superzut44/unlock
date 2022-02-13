@@ -4,3 +4,17 @@ define('APP_DB_USER', 'user');
 define('APP_DB_PASSWORD', 'password');
 define('APP_DB_HOST', 'localhost');
 define('APP_DB_NAME', 'unlock_db');
+
+// change in GameController for fusion
+// private function getCardNumbers(array $cardIds)
+//     {
+//         $cardNumbers =  [];
+//         foreach ($cardIds as $id) {
+//             foreach ($_SESSION["cards"]["discovered"] as $card) {
+//                 if ($card["id"] == $id) {
+//                     array_push($cardNumbers, $card["number"]);
+//                 }
+//             }
+//         }
+//         return $cardNumbers;
+//     }
