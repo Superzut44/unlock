@@ -67,3 +67,5 @@ To take it, you need to install the `Code Tour` extension for Visual Studio Code
 It will give access to a new menu on your IDE where you'll find the different tours about the simple-MVC. Click on play to start one : 
 
 ![menu](.tours/code_tour_menu.jpg)
+
+Attention     "change === to == in function getCardNumbers"
